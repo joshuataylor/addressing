@@ -8,7 +8,7 @@ php:
 
 install:
   - composer self-update
-  - composer install
+  - composer -vvv install
 
 script:
   - ./vendor/bin/phpunit -c ./phpunit.xml --coverage-text --strict
